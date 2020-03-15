@@ -1,7 +1,9 @@
 import React from 'react';
 
+import layoutStyles from '../../styles/Layout.module.scss'
+
 const Layout = ({children}) => (
-  <div>
+  <div className={layoutStyles.test}>
     {children}
   </div>
 )
